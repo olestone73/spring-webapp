@@ -22,9 +22,7 @@
 		<sonar.password>admin2@#</sonar.password>
 	</properties>
 
-	<dependencies>
-		
-		<distributionManagement>
+	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Nexus Repository releases</name>
@@ -38,7 +36,10 @@
 	    </snapshotRepository>
 	    
 	</distributionManagement>
-		<dependency>
+	
+	<dependencies>
+		
+			<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
